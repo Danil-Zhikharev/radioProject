@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b75823c2-52e6-4f37-b2c7-132acfef01a1" name="Changes" comment="Commit_11:31_16.11">
+    <list default="true" id="b75823c2-52e6-4f37-b2c7-132acfef01a1" name="Changes" comment="Commit_18:55_19.11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -37,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/zda/IdeaProjects/radioProjectUpdate",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/radioProjectUpdate",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -144,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668580329547</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit_18:55_19.11">
+      <created>1668866145912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668866145912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,7 +162,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="flexible" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -162,6 +184,7 @@
     <MESSAGE value="Commit_15:15_21.10" />
     <MESSAGE value="Commit_17:34_21.10" />
     <MESSAGE value="Commit_11:31_16.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit_11:31_16.11" />
+    <MESSAGE value="Commit_18:55_19.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit_18:55_19.11" />
   </component>
 </project>
