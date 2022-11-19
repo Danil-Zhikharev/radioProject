@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b75823c2-52e6-4f37-b2c7-132acfef01a1" name="Changes" comment="Commit_17:34_21.10">
+    <list default="true" id="b75823c2-52e6-4f37-b2c7-132acfef01a1" name="Changes" comment="Commit_11:31_16.11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,65 +33,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/zda/IdeaProjects/radioProjectUpdate",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zda\IdeaProjects\radioProject\src\test\java" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.toNextStationUnderNull">
-    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="radioProject" />
+  <component name="RunManager" selected="JUnit.RadioTest.getCustomMaxStation">
+    <configuration name="RadioTest.getCustomMaxStation (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="radioProjectUpdate" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.toNextStationAboveNine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="radioProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="toNextStationAboveNine" />
+      <option name="METHOD_NAME" value="getCustomMaxStation(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.toNextStationNine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="radioProject" />
+    <configuration name="RadioTest.getCustomMaxStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="radioProjectUpdate" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="toNextStationNine" />
+      <option name="METHOD_NAME" value="getCustomMaxStation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.toNextStationUnderNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="radioProject" />
+    <configuration name="RadioTest.getDefaultMaxStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="radioProjectUpdate" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="toNextStationUnderNull" />
+      <option name="METHOD_NAME" value="getDefaultMaxStation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.toNextStationUnderNull2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="radioProject" />
+    <configuration name="RadioTest.getValueOfMaxStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="radioProjectUpdate" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="toNextStationUnderNull2" />
+      <option name="METHOD_NAME" value="getValueOfMaxStation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="radioProjectUpdate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.toNextStationUnderNull" />
-        <item itemvalue="JUnit.RadioTest.toNextStationNine" />
-        <item itemvalue="JUnit.RadioTest.toNextStationAboveNine" />
-        <item itemvalue="JUnit.RadioTest.toNextStationUnderNull2" />
-        <item itemvalue="JUnit.RadioTest" />
+        <item itemvalue="JUnit.RadioTest.getCustomMaxStation" />
+        <item itemvalue="JUnit.RadioTest.getDefaultMaxStation" />
+        <item itemvalue="JUnit.RadioTest.getCustomMaxStation (1)" />
+        <item itemvalue="JUnit.RadioTest.getValueOfMaxStation" />
+        <item itemvalue="JUnit.RadioTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666355668327</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit_11:31_16.11">
+      <created>1668580329547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668580329547</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit_15:15_21.10" />
     <MESSAGE value="Commit_17:34_21.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit_17:34_21.10" />
+    <MESSAGE value="Commit_11:31_16.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit_11:31_16.11" />
   </component>
 </project>
