@@ -2,8 +2,8 @@ public class Radio {
     int currentStationNumber;
     int currentVolumeLevel;
 
-    //StationNumber (next|previous)
-    public void setCurrentStationNumber(int newCurrentStationNumber) {
+    //StationNumber (setter|next|previous)
+    public int setCurrentStationNumber(int newCurrentStationNumber) {
         if (newCurrentStationNumber > 9) {
             newCurrentStationNumber = 9;
         }
@@ -11,34 +11,25 @@ public class Radio {
             newCurrentStationNumber = 0;
         }
         currentStationNumber = newCurrentStationNumber;
+        return currentStationNumber;
     }
 
-    public void toNextStation(int newCurrentStationNumber) {
-        if (currentStationNumber < 9 & currentStationNumber >= 0) {
-            newCurrentStationNumber = currentStationNumber + 1;
+    public int toNextStation(int currentStationNumber) {
+        if (currentStationNumber < 9) {
+            currentStationNumber = currentStationNumber + 1;
         } else {
-            if (newCurrentStationNumber >= 9) {
-                newCurrentStationNumber = 0;
-            }
-            if (newCurrentStationNumber < 0) {
-                newCurrentStationNumber = 0;
-            }
+            currentStationNumber = 0;
         }
-        currentStationNumber = newCurrentStationNumber;
+        return currentStationNumber;
     }
 
-    public void toPrevStation(int newCurrentStationNumber) {
-        if (currentStationNumber <= 9 & currentStationNumber > 0) {
-            newCurrentStationNumber = currentStationNumber - 1;
+    public int toPrevStation(int currentStationNumber) {
+        if (currentStationNumber > 0) {
+            currentStationNumber = currentStationNumber - 1;
         } else {
-            if (newCurrentStationNumber > 9) {
-                newCurrentStationNumber = 9;
-            }
-            if (newCurrentStationNumber <= 0) {
-                newCurrentStationNumber = 9;
-            }
+            currentStationNumber = 9;
         }
-        currentStationNumber = newCurrentStationNumber;
+        return currentStationNumber;
     }
 
     //VolumeLevel (next|previous)
